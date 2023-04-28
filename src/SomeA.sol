@@ -12,6 +12,6 @@ contract SomeA is ERC721A {
     }
 
     function mintMultiple() external {
-        _mint(msg.sender, 99);
+        _mint(msg.sender, 9999);
     }
 }

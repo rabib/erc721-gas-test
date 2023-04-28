@@ -12,8 +12,8 @@ contract SomeOZ is ERC721 {
     }
 
     function mintMultiple() external {
-        // this will mint 99 NFTs
-        for(uint256 i = 1; i < 101;) {
+        // this will mint 9999 NFTs
+        for(uint256 i = 1; i < 10001;) {
             _mint(msg.sender, i);
             unchecked {
                 ++i;
